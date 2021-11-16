@@ -1,0 +1,11 @@
+.dialog {
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  &__cross {
+    cursor: pointer;
+    margin-top: -5px;
+  }
+}

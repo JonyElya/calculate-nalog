@@ -1,0 +1,26 @@
+.tags {
+  background: #EEF0F2;
+  border-radius: 50px;
+  font-size: 14px;
+  color: black;
+  padding: 6px 12px;
+  min-height: 36px;
+  cursor: pointer;
+  border: none;
+
+  &:hover {
+    background: #DFE3E6;
+  }
+  &:active {
+    background: linear-gradient(255.35deg, #DC3131 0.83%, rgba(255, 79, 79, 0) 108.93%), #FF5E56;
+    color: white;
+  }
+  &_active {
+    background: linear-gradient(255.35deg, #DC3131 0.83%, rgba(255, 79, 79, 0) 108.93%), #FF5E56;
+    color: white;
+    &:hover {
+      background: linear-gradient(255.35deg, #DC3131 0.83%, rgba(255, 79, 79, 0) 108.93%), #FF5E56;
+      color: white;
+    }
+  }
+}

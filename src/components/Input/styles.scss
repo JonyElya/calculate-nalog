@@ -1,0 +1,39 @@
+.input {
+  border: 1px solid #DFE3E6;
+  min-height: 22px;
+  border-radius: 3px;
+  padding: 8px 10px;
+  font-size: 14px;
+
+  &:hover {
+    border-color: black;
+  }
+  &::placeholder {
+    color: #BEC5CC;
+  }
+  &:focus {
+    color: black;
+  }
+  &:invalid {
+    border-color: #EA0029;
+    background-color: white;
+  }
+  &_fullWidth {
+    width: 100%;
+  }
+  &_disabled {
+    background-color: white;
+    border-color: #808080;
+    color: #808080;
+    &::placeholder {
+      color: #808080;
+    }
+    &:hover {
+      border-color: #808080;
+    }
+  }
+  &__error-helper {
+    font-size: 10px;
+    color: #EA0029;
+  }
+}

@@ -7,14 +7,6 @@
   border: none;
   min-width: 32px;
 
-  &_buttonType_text {
-    background-color: currentColor;
-    color: #EA0029;
-    &:hover {
-      color: #F53A31;
-    }
-  }
-
   &_size_small {
     height: 40px;
     font-size: 12px;
@@ -26,12 +18,15 @@
 
   &:hover {
     background: #EA0029;
-    box-shadow: 0px 0px 24px rgba(234, 0, 41, 0.33);
+    box-shadow: 0 0 24px rgba(234, 0, 41, 0.33);
   }
   &_disabled {
     background: #BEC5CC;
   }
   &_fullWidth {
     width: 100%;
+  }
+  &_weight_500 {
+    font-weight: 500;
   }
 }
